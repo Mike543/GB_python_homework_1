@@ -1,0 +1,5 @@
+user_time = int(input("Введите время в секундах: "))
+hours = (user_time // 3600 %24)
+minutes = (user_time % 3600 // 60)
+seconds = (user_time % 3600 % 60)
+print(f"Текущее время на Ваших часах: {hours}:{minutes}:{seconds}.")
